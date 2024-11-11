@@ -1,6 +1,6 @@
 # Runing airflow with docker 
 
-# Create the file docker.yml contain all dependencies 
+# Create the file docker-compose.yml contain all dependencies 
 ``` bash
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.10.3/docker-compose.yaml'
 ```
