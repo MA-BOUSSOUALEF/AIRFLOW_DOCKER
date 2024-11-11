@@ -25,13 +25,13 @@ redis - The redis - broker that forwards messages from scheduler to worker.
 mkdir -p ./dags ./logs ./plugins ./config
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
-#Initialize the database
+# Initialize the database
 ``` bash
 docker compose up airflow-init
 ```
-#Running Airflow
+# Running Airflow
 ``` bash
 docker compose up -d
 ```
 				
-#finnaly you can acces to airflow in a container in localhost:8080 
+# finnaly you can acces to airflow in a container in localhost:8080 
