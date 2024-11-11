@@ -20,7 +20,7 @@ postgres - The database.
 
 redis - The redis - broker that forwards messages from scheduler to worker.
 
-# Initializing Environment
+# Environment Initialization
 ``` bash
 mkdir -p ./dags ./logs ./plugins ./config
 echo -e "AIRFLOW_UID=$(id -u)" > .env
